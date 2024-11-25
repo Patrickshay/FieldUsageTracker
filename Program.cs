@@ -44,6 +44,13 @@ namespace FieldUsageTracker
                             Console.WriteLine($"Field: {result.FieldName} is potentially redundant.");
                         }
                     }
+
+                    // Saving a CSV file in local
+                    string csvPath = "FieldUsageReport.csv";
+
+                    // Create an instance of CsvGenerator and generate the CSV
+                    var csvGenerator = new CsvGenerator();
+                    csvGenerator.GenerateCsv(csvPath, usageResults);
                 }
             }
             catch (Exception ex)
