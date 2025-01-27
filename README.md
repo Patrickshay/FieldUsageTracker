@@ -45,13 +45,8 @@ ProductDetails	        8
 DiscountCode	          6
 WarehouseLocation	      1
 
-Authors
-1.	Pratikshay Awadhoot
-2.	Ritesh Jitendra Kadam
-3.	Myna Nereti
-4.	Yogeshwar Suresh 
-5.	Samratha Reddy Kanmathareddy
-6.	Jayanthi Ratna Chesetti 
-7.	Sai Lakshmi Vukkemkota
+Author
+Pratikshay Awadhoot
+
 
 
